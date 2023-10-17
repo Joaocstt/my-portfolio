@@ -335,6 +335,29 @@ img {
     }
 }
 
+.bar {
+    text-align: center;
+    position: relative;
+    left: 50px;
+}
+
+.bar-2 {
+    text-align: center;
+    position: relative;
+    left: 23px;
+}
+
+.bar-3 {
+    text-align: center;
+    position: relative;
+    left: 32px;
+}
+
+.bar-4 {
+    text-align: center;
+    position: relative;
+    left: 12px;
+}
 
 
 @media (max-width: 768px) {
@@ -366,7 +389,7 @@ img {
     }
 
     .navbar {
-        margin-top: 20px;
+        margin-top:80px;
         display: flex;
         gap: 15px;
         flex-direction: column;
