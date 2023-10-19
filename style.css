@@ -413,3 +413,17 @@ img {
     }
 }
 
+
+
+.project-card img {
+    max-width: 100%;
+    height: 200px; /* Defina a altura desejada aqui */
+    margin: 0 auto;
+}
+
+.description-fixed {
+    position: fixed;
+    left: 90px;
+    bottom: 0;
+
+}
