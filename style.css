@@ -421,9 +421,3 @@ img {
     margin: 0 auto;
 }
 
-.description-fixed {
-    position: fixed;
-    left: 90px;
-    bottom: 0;
-
-}
