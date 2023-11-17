@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    max-width: 1400px;
+   margin: 0 auto;
+}
+
+a {
+    color: black;
+}
+
+section {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+header {
+    padding: 20px 4%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    color: #000000;
+
+}
+
+.navbar a:hover {
+    color: rgb(4, 79, 191);
+}
+
+.section-home {
+    animation: inicializar .7s forwards;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+.content-home {
+    margin-top: 70px;
+    align-self: start;
+    display: grid;
+    gap: 20px;
+}
+
+.content-home h2 {
+    font-weight: 600;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.content-home p {
+    text-align: justify;
+}
+
+.content-home a {
+    justify-self: start;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+    transition: 2s;
+}
+
+.content-home a:hover {
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+    
+}
+.btn-tec {
+    display: flex;
+    gap: 10px;
+}
+i {
+    margin-right: 5px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.heading {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 2rem;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.skills {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.span-text-tech {
+    position: relative;
+    bottom: 5px;
+}
+
+.html-icon {
+    color: #E44D26; /* Cor do HTML */
+}
+
+.css-icon {
+    color: #264DE4; /* Cor do CSS */
+}
+
+.js-icon {
+    color: #F0DB4F; /* Cor do JavaScript */
+}
+
+.laravel-icon {
+    color: #E44D26;
+}
+
+
+.docker-icon {
+    color: #007bff;
+}
+
+.bt-icon {
+    color: purple;
+}
+
+.data-icon {
+    color: #ef6d0a;
+}
+
+.skill-bar {
+    background-color: #f0f0f0;
+    height: 24px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-level {
+    background-color: #007bff; /* Cor da barra de progresso */
+    height: 100%;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 0;
+    color: #fff; /* Cor do texto */
+}
+
+
+
+
+
+.skills {
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    width: calc(33.33% - 40px); /* 3 cartões por linha */
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    height: auto;
+    margin: 0 auto;
+  
+}
+
+.project-card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.project-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+
+#icon-github-project {
+    font-size: 23px;
+}
+
+.icon-project{
+    position: relative;
+    top: 20px;
+}
+
+.icon-project-one {
+    position: relative;
+    top: 57px;
+}
+
+/*FOOTER*/
+.main_footer .content {
+    padding: 3em 0em;
+}
+
+.main_footer_copy {
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 0em;
+}
+
+.main_footer_copy p {
+    font-size: 1em;
+    color: #000000;
+    height: 20px;
+}
+
+.main_footer_copy .m-b-footer {
+    margin-bottom: 0.5em;
+}
+
+.main_footer_copy .by {
+    font-size: 0.96em;
+}
+
+.main_footer_copy .by i {
+    font-size: 0.96em;
+    margin-right: 3px;
+    color: #e82626;
+}
+
+
+
+@media (max-width: 768px) {
+    .project-card, .skill-card {
+        width: 100%; /* 1 cartão por linha em telas menores */
+        margin: 10px 0; /* Espaçamento entre os cartões */
+    }
+    .icon-project-one {
+        position: relative;
+        top: 20px;
+    }
+}
+
+.bar {
+    text-align: center;
+    position: relative;
+    left: 50px;
+}
+
+.bar-2 {
+    text-align: center;
+    position: relative;
+    left: 23px;
+}
+
+.bar-3 {
+    text-align: center;
+    position: relative;
+    left: 32px;
+}
+
+.bar-4 {
+    text-align: center;
+    position: relative;
+    left: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .skill-card {
+        width: calc(50% - 40px); /* 2 cartões por linha em telas menores */
+    }
+}
+
+
+
+
+@keyframes inicializar {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px 2%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar {
+        margin-top:80px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+}
+@media (max-width: 768px) {
+    .section-home {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .content-home {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+
+
+.project-card img {
+    max-width: 100%;
+    height: 200px; /* Defina a altura desejada aqui */
+    margin: 0 auto;
+}
+
